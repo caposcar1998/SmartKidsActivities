@@ -32,7 +32,7 @@ export default function MenuBar() {
                     <Typography variant="h6" className={classes.title}>
                         SMART KIDS - LEARN
                     </Typography>
-                    <Button color="inherit">FOTO</Button>
+                    <img src="/images/ninosSaltando.png"/>
                 </Toolbar>
             </AppBar>
         </div>

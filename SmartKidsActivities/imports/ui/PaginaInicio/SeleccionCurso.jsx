@@ -1,9 +1,19 @@
 import React from 'react';
 import { Grid, Typography } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
+
+const useStyles = makeStyles((theme) => ({
+
+    foto: {
+        
+    }
+
+}));
 
 export default function SeleccionCurso() {
-    
+    const classes = useStyles();
+
 
     return (
         <Grid container
@@ -19,7 +29,7 @@ export default function SeleccionCurso() {
                     alignItems="center"
                 >
                     <Typography>KINDERGARTEN AND PRE-K</Typography>
-
+                    <img src="/images/FotosKinder.png" className={classes.foto} />
                     </Grid>
             
 
@@ -30,8 +40,8 @@ export default function SeleccionCurso() {
                     justify="center"
                     alignItems="center"
                 >
-            <Typography>GRADES 1,2,3</Typography>
-
+                    <Typography>GRADES 1,2,3</Typography>
+                    <img src="/images/FondosGrades.jpg" className={classes.foto}/>
                 </Grid>
                 
             </Grid>
