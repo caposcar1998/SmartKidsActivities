@@ -30,9 +30,9 @@ export default function MenuBar() {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" className={classes.title}>
-                        News
-          </Typography>
-                    <Button color="inherit">Login</Button>
+                        SMART KIDS - LEARN
+                    </Typography>
+                    <Button color="inherit">FOTO</Button>
                 </Toolbar>
             </AppBar>
         </div>
