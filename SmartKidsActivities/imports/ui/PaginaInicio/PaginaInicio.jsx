@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: theme.spacing(10)
     },
     menuInferior: {
-        bottom: 0
+        marginBottom: 0
     }
 
 }));
@@ -23,13 +23,14 @@ export default function PaginaInicio() {
     const classes = useStyles();
 
     return (
-        <>
+        <Grid>
         <MenuBar />
         <Box className={classes.boxUp} />
         <OpcionesIngreso />  
         <Box className={classes.boxUp} />
-        <SeleccionCurso/>
+        <SeleccionCurso />
+        <Box className={classes.boxUp} />
         <MenuInferior className= {classes.menuInferior}/>
-            </>
+        </Grid>
     )
 }

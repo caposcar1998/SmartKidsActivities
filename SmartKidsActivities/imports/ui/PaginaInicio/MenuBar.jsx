@@ -11,12 +11,12 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
     },
-    menuButton: {
-        marginRight: theme.spacing(2),
-    },
     title: {
         flexGrow: 1,
     },
+    foto: {
+        height: "50px"
+    }
 }));
 
 export default function MenuBar() {
@@ -26,13 +26,11 @@ export default function MenuBar() {
         <div className={classes.root}>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
+                    
                     <Typography variant="h6" className={classes.title}>
                         SMART KIDS - LEARN
                     </Typography>
-                    <img src="/images/ninosSaltando.png"/>
+                    <img src="/images/ninosSaltando.png" className={classes.foto}/>
                 </Toolbar>
             </AppBar>
         </div>
