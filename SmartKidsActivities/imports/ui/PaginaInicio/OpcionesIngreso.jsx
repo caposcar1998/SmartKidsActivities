@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
         right: 0,
         top: 0,
         bottom: 0,
-        backgroundColor: "#0000FF",
+        backgroundColor: "#00aaff",
         opacity: 0.4,
         transition: theme.transitions.create('opacity'),
     },

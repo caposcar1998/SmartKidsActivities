@@ -15,7 +15,10 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     foto: {
-        height: 80
+        height: 70
+    },
+    fondo: {
+        backgroundColor: "#cc00cc"
     }
 }));
 
@@ -24,7 +27,7 @@ export default function MenuBar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar position="static" className={classes.fondo}>
                 <Toolbar>
                     
                     <Typography variant="h3" className={classes.title}>
