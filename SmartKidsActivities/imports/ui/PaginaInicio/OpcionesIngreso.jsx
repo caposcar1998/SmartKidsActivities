@@ -126,6 +126,7 @@ export default function OpcionesIngreso() {
                             component="span"
                             variant="subtitle1"
                             color="inherit"
+                            variant="h4"
                             className={classes.imageTitle}
                         >
                             {image.title}

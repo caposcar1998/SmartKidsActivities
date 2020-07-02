@@ -11,10 +11,13 @@ import MenuInferior from './MenuInferior';
 const useStyles = makeStyles((theme) => ({
 
     boxUp: {
-        marginBottom: theme.spacing(10)
+        marginBottom: theme.spacing(9)
     },
     menuInferior: {
         marginBottom: 0
+    },
+    boxUno: {
+        marginTop: theme.spacing(3)
     }
 
 }));
@@ -24,6 +27,7 @@ export default function PaginaInicio() {
 
     return (
         <Grid>
+        <Box className={classes.boxUno} />
         <MenuBar />
         <Box className={classes.boxUp} />
         <OpcionesIngreso />  

@@ -36,7 +36,7 @@ export default function SeleccionCurso() {
                             justify="center"
                             alignItems="center"
                         >
-                            <Typography>KINDERGARTEN AND PRE-K</Typography>
+                            <Typography variant="h3">KINDERGARTEN AND PRE-K</Typography>
                         </Grid>    
                     </Grid>
                     <Grid item xs={12}>
@@ -65,7 +65,7 @@ export default function SeleccionCurso() {
                             justify="center"
                             alignItems="center"
                         >
-                        <Typography>GRADES 1,2,3</Typography>
+                            <Typography variant="h3">GRADES 1,2,3</Typography>
                         </Grid>
                     </Grid>
                     <Grid item xs={12}>
